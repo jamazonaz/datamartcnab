@@ -1,0 +1,17 @@
+USE [STG_CNAB]
+GO
+
+/****** Object:  Table [dbo].[USR_CRRET_BANCOS]    Script Date: 12/06/2025 18:17:34 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[USR_CRRET_BANCOS](
+	[ID_BANCO] [int] NULL,
+	[COD_BANCO] [varchar](3) NULL,
+	[NOME] [varchar](50) NULL
+) ON [PRIMARY]
+GO
+

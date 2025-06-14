@@ -1,0 +1,17 @@
+USE [STG_CNAB]
+GO
+
+/****** Object:  Table [dbo].[USR_OCORRENCIAS]    Script Date: 12/06/2025 18:18:31 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[USR_OCORRENCIAS](
+	[BANCO] [int] NULL,
+	[COD_OCORRENCIA] [varchar](2) NULL,
+	[DESCRICAO] [varchar](200) NULL
+) ON [PRIMARY]
+GO
+

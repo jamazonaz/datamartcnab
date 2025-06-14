@@ -1,0 +1,18 @@
+USE [STG_CNAB]
+GO
+
+/****** Object:  Table [dbo].[USR_TARIFAS_CONTRATO]    Script Date: 12/06/2025 18:18:54 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[USR_TARIFAS_CONTRATO](
+	[BANCO] [int] NOT NULL,
+	[COD_TARIFA] [varchar](2) NOT NULL,
+	[DESC_TARIFA] [varchar](200) NULL,
+	[VL_TARIFA] [numeric](22, 6) NOT NULL
+) ON [PRIMARY]
+GO
+
