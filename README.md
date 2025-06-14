@@ -40,5 +40,7 @@
 ## 📦 Como Executar Localmente
 
 ```bash
-pip install -r requirements.txt
-streamlit run streamlit_app.py
+1 - python -m venv v_data_mart
+2 - ./v_data_mart/script/activate
+3 - pip install -r requirements.txt
+4 - streamlit run app.py
