@@ -10,8 +10,8 @@ def get_connection():
         "DRIVER={ODBC Driver 17 for SQL Server};"
         "SERVER=localhost;"
         "DATABASE=DM_CNAB;"
-        "UID=sa;"
-        "PWD=Linx"
+        "UID=SEU_USUARIO;"
+        "PWD=SUA_SENHA"
     )
 
 # Carregar filtros dinâmicos
