@@ -43,5 +43,5 @@
 1 - python -m venv v_data_mart
 2 - ./v_data_mart/script/activate
 3 - pip install -r requirements.txt
-4 - coloque "UID=SEU_USUARIO e "PWD=SUA_SENHA" do seu SQL Server no inicio deo arquivo app.py
+4 - coloque "UID=SEU_USUARIO" e "PWD=SUA_SENHA" de conexao ao seu SQL Server no inicio deo arquivo app.py
 5 - streamlit run app.py
